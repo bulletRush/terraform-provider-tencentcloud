@@ -13,6 +13,7 @@ Provides a CBS resource.
 ~> **NOTE:** At present, only 'PREPAID' storage is supported to create. 'PREPAID' storage cannot be deleted, once created, must wait it to be expired and release it automatically.
 
 ## Example Usage
+
 ```hcl
 data "tencentcloud_availability_zones" "my_favorate_zones" {}
 
